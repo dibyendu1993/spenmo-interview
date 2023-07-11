@@ -1,0 +1,31 @@
+.container {
+    background: black;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+.loadMoreButton {
+    color: white;
+    width: 700px;
+    margin: 30px auto;
+    background: #dd0f0f;
+    padding: 10px 0px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.textBox {
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 278px;
+}
+
+.paeLaoding {
+    color: antiquewhite;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 30px;
+}

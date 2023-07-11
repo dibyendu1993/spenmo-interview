@@ -1,0 +1,38 @@
+.itemcardContainer {
+    width: max-content;
+    width: 145px;
+}
+
+.itemcardContainer div img {
+    cursor: pointer;
+}
+
+.cardTitle {
+    color: #ffffff;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.cardYear {
+    color: #ffffffe3;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 6px;
+    display: flex;
+}
+
+.favourite {
+    color: #ffffffe3;
+    text-align: left;
+    font-size: 14px;
+    margin-top: 6px;
+    display: flex;
+    cursor: pointer;
+}
+
+.starIcon {
+    margin-right: 5px;
+}

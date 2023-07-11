@@ -1,0 +1,18 @@
+.navbarCotainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.navbarTitle {
+    cursor: pointer;
+    font-size: 30px;
+    color: rgb(226, 68, 15);
+}
+
+.navbarFavourites {
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+}

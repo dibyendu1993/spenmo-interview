@@ -1,0 +1,67 @@
+.searchBoxContainer {
+    display: flex;
+    justify-content: center;
+    width: max-content;
+    margin: 0px auto;
+    border-radius: 3px;
+}
+
+.searchInputContainer {
+    display: flex;
+    padding: 8px 0px 8px 5px;
+    border-radius: 5px;
+    background: #fff;
+    position: relative;
+    width: 800px;
+    justify-content: space-between;
+}
+
+.searchInputContainer input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    width: 600px;
+}
+
+.dropDownbutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: solid 1px rgba(0, 0, 0, 0.374);
+    margin: -9px 0px;
+    padding: 10px 8px;
+    cursor: pointer;
+    max-width: 100px;
+    width: 100px;
+    text-align: left;
+}
+
+.dropDownBox {
+    position: absolute;
+    background: #fff;
+    right: 2px;
+    top: 37px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.dropDownBox li {
+    list-style-type: none;
+    padding: 10px 24px;
+}
+
+.dropDownBox li:hover {
+    background: rgba(128, 128, 128, 0.296);
+    cursor: pointer;
+}
+
+.searchButton {
+    color: #fff;
+    background: #dd0f0f;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 23px;
+    font-size: 18px;
+}
